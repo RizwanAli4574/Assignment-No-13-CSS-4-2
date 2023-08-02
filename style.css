@@ -1,0 +1,105 @@
+body{
+    background-image: url(./img/2.jpg);
+ background-repeat:repeat;
+}
+*{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+.main{
+    position:absolute;
+    margin: 16% 35%;
+    background-color: rgba(186, 220, 242, 0.1);
+    padding: 20px 20px 0px 10px;
+    color: azure;
+    border: 1px solid white;
+    box-shadow: 0 0 15px #ec04f8;
+}
+form{
+  padding: 2em;
+    border-radius: 1em;
+    line-height: 2em;
+    margin-right: -5px;
+   margin-bottom: -10px;
+}
+.RG h1{
+    text-align: center;
+}
+form input{
+    outline: none;
+    padding: 0.3em 0.4em;
+    margin-bottom: 0.8em;
+    font-size:1em;
+  
+}
+form .GN{
+    width: 25px;
+}
+form .First{
+    background-image: url(./img/person.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    border:1px solid black;
+    font-size: 20px;
+    background-position: 0%;
+}
+form .Mail{
+    background-image: url(./img/mail\ 3.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    border:1px solid black;
+    font-size: 20px;
+    background-position: 0%;
+}
+form .Pass{
+    background-image: url(./img/pass1.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    border:1px solid black;
+    font-size: 20px;
+    background-position: 0%;
+}
+form select{
+    outline: none;
+    padding: 0.3em 0.4em;
+    margin-bottom: 0.8em;
+    font-size:1em;
+    width: 19em;
+    margin-top: 5px;
+
+}
+form button{
+    outline: none;
+    padding: 0.3em 0.4em;
+    margin-bottom: 0.8em;
+    font-size:1em;
+    width: 19em;
+    margin-top: 8px;
+    background-color: #06b909;
+    color: aliceblue;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+    height: 2em;
+}
+h3{
+    display: inline-block;
+    font-weight: 100;
+}
+button:hover{
+    cursor: pointer;
+   background-color: skyblue;
+}
+input:hover{
+    border: 1px solid rgb(234, 0, 255);
+    color: blueviolet;
+    text-transform:uppercase;
+}
+select:hover{
+    cursor: pointer;
+    color: rgb(249, 4, 4);
+}
